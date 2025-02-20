@@ -1,0 +1,17 @@
+{
+  "customId": "T1686623056CUACAD",
+  "productId": "100166498",
+  "packageName": "",
+  "bundleId": "com.codeid.miniapptester.ios",
+  "material": "01HjZocV5FyHluRD3AFv+uY/YMFcA/vdOcCOhS3siUpT5veot+8n17scWnXUIK0dQz2kmKiWrkfJGGs18BUhN0B5bVoMicOettBC42LsthK/xTEVl+AsHpDZjE8cR5Kz4gsD7E2Vy+3jiok9wZMiXHN/IZt2sp/CS3QFBUP9XafVygZytNze2b7YyxwB0dLXW3E+BbPmTHusFxYsIkajX7f8y/KOtV+2DRlVRrhDU5lWadlPCTNnK16bA4iCo62aE/CPXhXls04WzuHnx7DV0/PK0aTamIm4+d/v/EVzwujGr2SVMdqU1x5DNGV3Q8Zn12wc3Y64P7Llj/F6xwZAjPyPjsXKRWmtmG+2vYnyEqNyAErxBLsrkORSqOrb3lJG7u6mB0+a7NKZ1uIHVPyZL4uWNe1r7OJ8zqA00sEO+stuPU2rHMlYbP4ldxFna/WNnt73S0OitBCaAhQuMhSuGRe/y6ue2i8TQpOp+9HMwFVRs/ti8kq5bo+Y6nHLcguBkrIk6vKJXGWnPwG7XnZHZpV7yo6YdyvWU0DGVOCNMf5CI45J+LmsvM/T/MNuwYSPCgPW1tu40rFMxbWe/3OqDH5w==8a43d025981ea9fb",
+  "shark": {
+    "httpUrl": "https://api-ts.tcmpp.com/",
+    "tcpHost": "MAZUTCPDOMAN",
+    "tcpPort": 30014,
+    "appKey": "app-gt1hj2nijw",
+    "symEnc": 1,
+    "asymEnc": 0
+  },
+  "feedback": "https://feedback-ts.tcmpp.com?region=ap-jakarta&env=pre",
+  "qapmUrl": "https://qapm-app-ts.tcmpp.com"
+}
