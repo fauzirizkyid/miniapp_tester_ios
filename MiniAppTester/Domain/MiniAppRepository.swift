@@ -1,0 +1,3 @@
+protocol MiniAppRepository {
+    func launchMiniApp()
+}

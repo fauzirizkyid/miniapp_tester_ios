@@ -1,0 +1,93 @@
+PODS:
+  - Brotli (1.1.0)
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack (3.8.5):
+    - CocoaLumberjack/Core (= 3.8.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - MJRefresh (3.1.15)
+  - MQQComponents (2.0.0)
+  - PromiseObjC (0.0.7.1)
+  - SocketRocket (0.5.1)
+  - SSZipArchive (2.2.2)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - Tars (1.6.0):
+    - Tars/Core (= 1.6.0)
+  - Tars/Core (1.6.0)
+  - TCMPPExtMedia (2.0.1):
+    - TCMPPSDK
+    - TZImagePickerController
+  - TCMPPExtScanCode (2.0.2):
+    - TCMPPSDK
+  - TCMPPSDK (2.2.0):
+    - Brotli
+    - MJRefresh
+    - MQQComponents (>= 2.0.0)
+    - PromiseObjC
+    - SocketRocket
+    - SSZipArchive
+    - Tars
+    - TMFProfile (>= 2.0.0)
+    - TMFShark (>= 4.0.0)
+    - TMFUploader (>= 2.0.0)
+  - TMFProfile (2.0.0):
+    - MQQComponents (>= 2.0.0)
+    - TMFShark (>= 4.0.0)
+  - TMFShark (4.0.0):
+    - CocoaAsyncSocket
+    - MQQComponents (>= 2.0.0)
+    - Tars
+  - TMFUploader (2.0.0):
+    - MQQComponents (>= 2.0.0)
+    - TMFShark (>= 4.0.0)
+  - TZImagePickerController (3.8.2.1)
+
+DEPENDENCIES:
+  - SVGKit (~> 3.0)
+  - TCMPPExtMedia
+  - TCMPPExtScanCode
+  - TCMPPSDK
+
+SPEC REPOS:
+  https://e.coding.net/tcmpp-work/tcmpp/tcmpp-repo.git:
+    - Brotli
+    - CocoaAsyncSocket
+    - MJRefresh
+    - MQQComponents
+    - PromiseObjC
+    - SocketRocket
+    - SSZipArchive
+    - Tars
+    - TCMPPExtMedia
+    - TCMPPExtScanCode
+    - TCMPPSDK
+    - TMFProfile
+    - TMFShark
+    - TMFUploader
+    - TZImagePickerController
+  trunk:
+    - CocoaLumberjack
+    - SVGKit
+
+SPEC CHECKSUMS:
+  Brotli: 9432ce457fb024b33c6a24e3991ad615b5f1f43f
+  CocoaAsyncSocket: 420eafe8d3c27b836e26840003840c9073f8cf19
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  MJRefresh: 520f44a7a049fca2710a403f9c47d2dfcae367d1
+  MQQComponents: 30c21ed806e3d613bf107ade8bb6957a9ffadd5c
+  PromiseObjC: 51e0cb71693fe55aeef91d22d5b95b2bd4901273
+  SocketRocket: 8b0bf37da872b89749e38864e24619d285e7cc96
+  SSZipArchive: 489001da941c6a8c61edef261f59135d60d3094d
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  Tars: 85fb2b23bb1fb11f4f59b1a325c657259c2c2268
+  TCMPPExtMedia: cda563c2e6002284d626533543788a2ecc91149e
+  TCMPPExtScanCode: 1a6cbfb3dabb0b9d3bb66e164fc1cf7cabedc9d5
+  TCMPPSDK: 9e10a7630ca789104c6974667c955e2e5df24406
+  TMFProfile: 9f2ba8872e4b256532eb1ce89ae716505fc69b8e
+  TMFShark: 53f61056982a7b353c77f5c829ef7b2c8c8afa1c
+  TMFUploader: 6fb7abc8c14ac7c12047980f3bc2f47713e4a28b
+  TZImagePickerController: 85c5a4c7410a2221e8926c786a1eff669c295f16
+
+PODFILE CHECKSUM: e98fe35bdc561eb4cedc55958dd76c97cd288297
+
+COCOAPODS: 1.16.2

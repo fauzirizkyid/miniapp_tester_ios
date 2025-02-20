@@ -1,0 +1,6 @@
+framework module Pods_MiniAppTester {
+  umbrella header "Pods-MiniAppTester-umbrella.h"
+
+  export *
+  module * { export * }
+}

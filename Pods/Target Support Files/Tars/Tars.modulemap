@@ -1,0 +1,6 @@
+framework module Tars {
+  umbrella header "Tars-umbrella.h"
+
+  export *
+  module * { export * }
+}
