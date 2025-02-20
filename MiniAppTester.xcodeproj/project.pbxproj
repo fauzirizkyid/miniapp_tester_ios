@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5968005F2D672B8E00EE2BEB /* ic_power_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 5968005E2D672B8E00EE2BEB /* ic_power_24.png */; };
 		596800632D672D6C00EE2BEB /* MiniAppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596800622D672D6C00EE2BEB /* MiniAppRepository.swift */; };
 		596800652D672D8000EE2BEB /* MiniAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596800642D672D8000EE2BEB /* MiniAppService.swift */; };
 		596800672D672DB300EE2BEB /* MiniAppCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596800662D672DB300EE2BEB /* MiniAppCustomization.swift */; };
 		596800692D672DD600EE2BEB /* UIViewControllerFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596800682D672DD600EE2BEB /* UIViewControllerFinder.swift */; };
+		596800712D6738A700EE2BEB /* ic_power_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 596800702D6738A700EE2BEB /* ic_power_24.png */; };
 		59C24A7E2D666A83002CB59B /* MiniAppTesterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C24A7D2D666A83002CB59B /* MiniAppTesterApp.swift */; };
 		59C24A802D666A83002CB59B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C24A7F2D666A83002CB59B /* ContentView.swift */; };
 		59C24A822D666A84002CB59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C24A812D666A84002CB59B /* Assets.xcassets */; };
 		59C24A852D666A84002CB59B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C24A842D666A84002CB59B /* Preview Assets.xcassets */; };
-		59C24A8C2D666D1A002CB59B /* tcsas-ios-configurations.json in Resources */ = {isa = PBXBuildFile; fileRef = 59C24A8B2D666D1A002CB59B /* tcsas-ios-configurations.json */; };
+		59F213692D673C0B009F3DF6 /* tcsas-ios-configurations.json in Resources */ = {isa = PBXBuildFile; fileRef = 59F213682D673C0B009F3DF6 /* tcsas-ios-configurations.json */; };
 		6C5C93781347BF4476700B63 /* Pods_MiniAppTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5390C02522145292C789AD /* Pods_MiniAppTester.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5968005E2D672B8E00EE2BEB /* ic_power_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_power_24.png; sourceTree = "<group>"; };
 		596800622D672D6C00EE2BEB /* MiniAppRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppRepository.swift; sourceTree = "<group>"; };
 		596800642D672D8000EE2BEB /* MiniAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppService.swift; sourceTree = "<group>"; };
 		596800662D672DB300EE2BEB /* MiniAppCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppCustomization.swift; sourceTree = "<group>"; };
 		596800682D672DD600EE2BEB /* UIViewControllerFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerFinder.swift; sourceTree = "<group>"; };
+		596800702D6738A700EE2BEB /* ic_power_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_power_24.png; sourceTree = "<group>"; };
 		59C24A7A2D666A83002CB59B /* MiniAppTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniAppTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C24A7D2D666A83002CB59B /* MiniAppTesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppTesterApp.swift; sourceTree = "<group>"; };
 		59C24A7F2D666A83002CB59B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59C24A812D666A84002CB59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C24A842D666A84002CB59B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		59C24A8B2D666D1A002CB59B /* tcsas-ios-configurations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "tcsas-ios-configurations.json"; sourceTree = "<group>"; };
+		59F213682D673C0B009F3DF6 /* tcsas-ios-configurations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "tcsas-ios-configurations.json"; sourceTree = "<group>"; };
 		6AB2FD087E580C6B25A285E1 /* Pods-MiniAppTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniAppTester.debug.xcconfig"; path = "Target Support Files/Pods-MiniAppTester/Pods-MiniAppTester.debug.xcconfig"; sourceTree = "<group>"; };
 		9CB8A9031EDF589A6ED0EED2 /* Pods-MiniAppTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniAppTester.release.xcconfig"; path = "Target Support Files/Pods-MiniAppTester/Pods-MiniAppTester.release.xcconfig"; sourceTree = "<group>"; };
 		CF5390C02522145292C789AD /* Pods_MiniAppTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniAppTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 		5968005C2D672B3F00EE2BEB /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5968005E2D672B8E00EE2BEB /* ic_power_24.png */,
+				596800702D6738A700EE2BEB /* ic_power_24.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 		5968005D2D672B4600EE2BEB /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				59C24A8B2D666D1A002CB59B /* tcsas-ios-configurations.json */,
+				59F213682D673C0B009F3DF6 /* tcsas-ios-configurations.json */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -228,8 +228,8 @@
 			files = (
 				59C24A852D666A84002CB59B /* Preview Assets.xcassets in Resources */,
 				59C24A822D666A84002CB59B /* Assets.xcassets in Resources */,
-				59C24A8C2D666D1A002CB59B /* tcsas-ios-configurations.json in Resources */,
-				5968005F2D672B8E00EE2BEB /* ic_power_24.png in Resources */,
+				596800712D6738A700EE2BEB /* ic_power_24.png in Resources */,
+				59F213692D673C0B009F3DF6 /* tcsas-ios-configurations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

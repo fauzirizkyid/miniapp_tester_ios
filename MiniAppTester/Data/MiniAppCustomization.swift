@@ -11,6 +11,7 @@ import TCMPPSDK
 class MiniAppCustomization: NSObject, TMFMiniAppSDKDelegate {
     // ✅ 1️⃣ Customize Loading Screen
     func customLoadingView(with appInfo: TMFMiniAppInfo?, frame: CGRect) -> UIView? {
+        print("Custom loading view is being used.")
         let view = UIView(frame: frame)
         view.backgroundColor = .white
         
@@ -25,15 +26,6 @@ class MiniAppCustomization: NSObject, TMFMiniAppSDKDelegate {
         
         view.addSubview(label)
         view.addSubview(activityIndicator)
-        
-        // ✅ Auto Layout Constraints
-        NSLayoutConstraint.activate([
-            label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            label.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -20),
-            
-            activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            activityIndicator.topAnchor.constraint(equalTo: label.bottomAnchor, constant: 10)
-        ])
         
         return view
     }

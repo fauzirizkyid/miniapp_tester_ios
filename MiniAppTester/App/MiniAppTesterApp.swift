@@ -23,13 +23,13 @@ struct MiniAppTesterApp: App {
     }
     
     private func setupTCMPP() {
-        if let filePath = Bundle.main.path(forResource: "Resources/Config/tcsas-ios-configurations", ofType: "json") {
+        
+        if let fileURL = Bundle.main.url(forResource: "tcsas-ios-configurations", withExtension: "json") {
+            let filePath = fileURL.path
             let config = TMAServerConfig(file: filePath)
             TMFMiniAppSDKManager.sharedInstance().setConfiguration(config)
-            
             TMFMiniAppSDKManager.sharedInstance().miniAppSdkDelegate = miniAppCustomization
             print("✅ TCMPP SDK Initialized Successfully!")
-                
         } else {
             print("❌ TCMPP Config file not found!")
         }
